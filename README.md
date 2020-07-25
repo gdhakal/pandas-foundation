@@ -69,7 +69,6 @@ APPL.info()
 # Adj Close    8514 non-null float64
 # dtypes: float64(5), int64(1)
 # memory usage: 465.6
-"""
 ```
 
 Question: Slice using labels with the .iloc accessor
@@ -108,7 +107,8 @@ Extracting a single column data returns a series.
 low = APPL['Low']
 type(low) # pandas.core.series.Series
 
-# Series extracted has its own head method and inherits its name attribute from the DataFrame column.
+# Series extracted has its own head method 
+# and inherits its name attribute from the DataFrame column.
 low.head()
 # Date
 # 2014-09-16		98.89
